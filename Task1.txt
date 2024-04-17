@@ -1,0 +1,6 @@
+Task : 1 
+    - print your Bio Data using document.write   5 6 line 
+
+
+Task : 2 
+    - print information about your fvrt clbry  any 5 lines using console
