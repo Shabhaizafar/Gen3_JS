@@ -4,3 +4,6 @@ Task : 1
 
 Task : 2 
     - print information about your fvrt clbry  any 5 lines using console
+
+Task : 3
+    - Use all Command (Console Commands)
