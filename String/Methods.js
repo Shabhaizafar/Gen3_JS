@@ -66,3 +66,7 @@
 // str.substring
 // str.substr 
 
+
+
+// note + pen : 
+//
