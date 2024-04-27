@@ -56,17 +56,57 @@
 
 //17) str.valueOf
 // console.log(str.valueOf());  // X
+/27-04-2024/
+var str = "Royal Technosoft p ltd";
+console.log(str);
+
+
+
+//18) str.split
+
+// var ans = str.split(``);
+// // var ans = str.split(` `);
+// // var ans = str.split(`o`);
+
+// console.log(ans);
+
+
+//19) str.slice
+            //1) starting point index    2) ending point index
+// console.log("slice:",str.slice(10,6));
+//20) str.substring
+            // starting point index   or   ending point index
+
+// console.log("substring:",str.substring(10,6));
+//21) str.substr 
+                            // 1)starting point(index)  2) step(length)
+// console.log("substr : ",str.substr(6,10));
+
+
+///////////////////////////////////////////////////////////////////////////////
+// Template Strings: ` ${asdfghyu}  `
+
+var fname = "Ajay";
+var lname = "Shah";
+var Age = 10;
+
+// My name is Raj Patel.and i'm 10 year Old.
+
+
+console.log("My name is Raj Patel.and i'm 10 year Old.");
+// console.log("My name is",fname,lname,".and i'm",Age,"year Old.");
+console.log('My name is',fname,lname+".and i'm",Age,"year Old.");
+
+console.log(`My name is ${fname} ${lname}.and i'm ${Age} year Old.`);
 
 
 
 
-// str.split
 
-// str.slice
-// str.substring
-// str.substr 
 
 
 
 // note + pen : 
 //
+
+// https://quizzesforyou.com/quiz/jsstring
