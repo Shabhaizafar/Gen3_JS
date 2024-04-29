@@ -86,19 +86,18 @@ console.log(str);
 ///////////////////////////////////////////////////////////////////////////////
 // Template Strings: ` ${asdfghyu}  `
 
-var fname = "Ajay";
-var lname = "Shah";
-var Age = 10;
+// var fname = "Ajay";
+// var lname = "Shah";
+// var Age = 10;
 
-// My name is Raj Patel.and i'm 10 year Old.
+// // My name is Raj Patel.and i'm 10 year Old.
 
 
-console.log("My name is Raj Patel.and i'm 10 year Old.");
-// console.log("My name is",fname,lname,".and i'm",Age,"year Old.");
-console.log('My name is',fname,lname+".and i'm",Age,"year Old.");
+// console.log("My name is Raj Patel.and i'm 10 year Old.");
+// // console.log("My name is",fname,lname,".and i'm",Age,"year Old.");
+// console.log('My name is',fname,lname+".and i'm",Age,"year Old.");
 
-console.log(`My name is ${fname} ${lname}.and i'm ${Age} year Old.`);
-
+// console.log(`My name is ${fname} ${lname}.and i'm ${Age} year Old.`);
 
 
 
