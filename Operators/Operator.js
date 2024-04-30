@@ -1,11 +1,5 @@
 // - Arithmatic Operator/Unary Operator (inc/dec)
 //   +,-,*,/,%,++,--
-// - Assignment Operator 
-//   +=,-=,*=,%=,/=,=
-// - logical Operator
-//   and ,or ,not 
-// - relational Operator 
-//  <=,>=,<,>,==,!=, ===, !==
 
 /////////////////////////////////////
 // - Arithmatic Operator/Unary Operator (inc/dec)
