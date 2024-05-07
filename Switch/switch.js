@@ -67,7 +67,7 @@
 // 3)Season Determiner: Write a function that takes a month as input and returns the corresponding season (spring, summer, autumn, winter) using a switch statement.
 
 // //4) Currency Converter: Create a function that takes an amount in one currency (USD, EUR, GBP, JPY) and converts it to another currency using a switch statement.
-// 1rs  = 0.01199s 
+// 1rs  = 0.01199  $
 // 1000
 
 
