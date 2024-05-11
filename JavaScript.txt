@@ -22,12 +22,12 @@
    ✅ Nested if else.
    ✅ If elseif else.
    ✅ Switch statement.
-   - While loop.
-   - While loop examples.
-   - For loop.
-   - For loop examples.
-   - Break and continue keyword.
-   - Do while loop.
+   ✅ While loop.
+   ✅ While loop examples.
+   ✅ For loop.
+   ✅ For loop examples.
+   ✅ Break and continue keyword.
+   ✅ Do while loop.
 
 => Arrays in JavaScript :-
 

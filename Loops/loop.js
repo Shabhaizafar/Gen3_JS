@@ -65,15 +65,15 @@
 // B C 
 // D E F 
 // G H I J 
-var n=4;
-var str ="";
-var ch = 65;
-for (let i = 0; i < n; i++) {
-    str="";
-    for (let j = 0; j <=i; j++) {
-        // str+=ch;
-        str = str + String.fromCharCode(ch)  + " ";
-        ch++;
-    }
-    console.log(str);
-}
+// var n=4;
+// var str ="";
+// var ch = 65;
+// for (let i = 0; i < n; i++) {
+//     str="";
+//     for (let j = 0; j <=i; j++) {
+//         // str+=ch;
+//         str = str + String.fromCharCode(ch)  + " ";
+//         ch++;
+//     }
+//     console.log(str);
+// }
