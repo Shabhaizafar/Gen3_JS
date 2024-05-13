@@ -170,6 +170,33 @@ n=5
 * * *       * * *
 * * *       * * *
 
-
-
 */
+var n = 10;
+var ans = "";
+var space = n-1;
+for (let i = 0; i <n; i++) {
+    ans = "";
+    for (let j = space; j > i; j--) {
+        ans+="&nbsp;&nbsp;&nbsp;";
+    }
+    for (let j = 0; j <=i; j++) {
+       ans+="* ";
+      }
+    for (let j = 0; j <i; j++) {
+        ans+="* ";
+       }
+    document.write(ans,"<br>");
+}
+for (let i = 0; i < n-2; i++) {
+  ans = "";
+  for (let j = 0; j <n-2; j++) {
+    ans+="* ";
+   }
+   for (let j = 0; j < 3; j++) {
+    ans+="&nbsp;&nbsp;&nbsp;";
+   }
+   for (let j = 0; j <n-2; j++) {
+    ans+="* ";
+   }
+   document.write(ans,"<br>");
+}
