@@ -8,12 +8,12 @@
 // console.log(Person,typeof Person);
 
 
-var Person = {
-//   key      value    =  property
-    fname : "Raj",
-    lname : "Shah",
-    Age : 12
-}
+// var Person = {
+// //   key      value    =  property
+//     fname : "Raj",
+//     lname : "Shah",
+//     Age : 12
+// }
 
 //How to Access All Data an Object
-console.log(Person);
+// console.log(Person);
