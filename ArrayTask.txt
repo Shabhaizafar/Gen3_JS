@@ -1,0 +1,78 @@
+Basic Array Operations
+Create an Array:
+
+Create an array of your favorite fruits and log it to the console.
+-------------------------------------------
+Access Elements:
+
+Given the array let colors = ["red", "green", "blue", "yellow"];, log the first and last elements.
+-------------------------------------------
+Add and Remove Elements:
+
+Add a new color to the end of the colors array.
+Remove the first element from the colors array.
+Add a new color to the beginning of the colors array.
+Remove the last element from the colors array.
+-------------------------------------------
+Find the Length:
+
+Log the length of the colors array.
+-------------------------------------------
+All for Loops
+For Loop:
+
+Write a for loop to iterate over the colors array and log each color to the console.
+-------------------------------------------
+For...of Loop:
+
+Write a for...of loop to iterate over the colors array and log each color to the console.
+-------------------------------------------
+ForEach Loop:
+
+Use the forEach method to iterate over the colors array and log each color to the console.
+-------------------------------------------
+Cloning Arrays
+Shallow Copy using Slice:
+
+Create a shallow copy of the colors array using the slice method.
+-------------------------------------------
+Shallow Copy using Spread Operator:
+
+Create a shallow copy of the colors array using the spread operator.
+-------------------------------------------
+Concat Method:
+
+Create a new array by concatenating the colors array with another array of additional colors.
+-------------------------------------------
+Destructuring
+Array Destructuring:
+
+Given the array let numbers = [1, 2, 3, 4, 5];, use array destructuring to assign the first two elements to variables a and b, and the rest to variable rest.
+-------------------------------------------
+Skipping Elements:
+
+Given the same numbers array, use array destructuring to skip the first two elements and assign the third element to variable c.
+-------------------------------------------
+Default Values:
+Use array destructuring with default values to handle cases where the array may not have enough elements. E.g., let [x = 10, y = 20, z = 30] = [5, 6];.
+-------------------------------------------
+Combining Concepts
+Combine All Concepts:
+Given an array of student scores, write a function that:
+Uses a for...of loop to iterate over the scores.
+-------------------------------------------
+Uses destructuring to extract the first score and the rest of the scores.
+-------------------------------------------
+Creates a copy of the scores array.
+-------------------------------------------
+Logs the original and copied arrays to the console.
+-------------------------------------------
+Bonus Challenge
+Nested Array Destructuring:
+
+Given the nested array let nestedArray = [[1, 2], [3, 4], [5, 6]];, use destructuring to extract the first element of each sub-array.
+-------------------------------------------
+Using All Loops:
+
+Write functions that use each type of loop (for, for...of, forEach) to calculate the sum of all elements in an array of numbers.
+-------------------------------------------

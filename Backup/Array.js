@@ -65,11 +65,98 @@
 //////////////////////////////////////////
 // ✅ Clone array & spread operator.
 
+// 1) concat 
+
+// var Arr1 = [1,2,3];
+// var Arr2 = Arr1.concat(300,400,500);
+// console.log(Arr1);
+// console.log(Arr2);
+
+// Arr1.push(100);
+// console.log(Arr1);
+// console.log(Arr2);
+
+// 2)  slice  
+// var Arr1 = [1,2,3,4,5,6,7,8,9,0];
+// var Arr2 = Arr1.slice(3,9);
+
+// console.log(Arr1);
+// console.log(Arr2);
+
+// 3) spread operator  ...
+// var Arr1 =  [1,2,3,4,5,6,7,8,9,0];
+// var Arr2 = [...Arr1];
+// console.log(Arr1);
+// console.log(Arr2);
+
 
 /////////////////////////////////////////
 // ✅ For loop.
-// ✅ use const for creating arrays.
 // ✅ While loop in array.
 // ✅ For of loop.
 // ✅ For in loop.
+// var Arr1 =  [1,2,3,4,5,6,7,8,9,0];
+// console.log(Arr1);
+// console.log(...Arr1);
+
+//for basic 
+// for (let i = 0; i < Arr1.length; i++) {
+//     console.log("index : ",i,"value : ",Arr1[i]);
+// }
+
+//while loop 
+// let i = 0;
+// while (i<Arr1.length) {
+//     console.log("index : ",i,"value : ",Arr1[i]);
+//     i++;
+// }
+
+//do-while loop
+// let i = 0;
+// do {
+//     console.log("index : ",i,"value : ",Arr1[i]);
+//     i++;
+// } while (i<Arr1.length);
+
+//for of loop
+// for (const iterator of Arr1) {
+//     console.log(iterator);
+// }
+// for (const iterator of "Royal Techno") {
+//     console.log(iterator);
+// }
+
+//for in loop 
+// for (const key in Arr1) {
+//         console.log("index : ",key,"value : ",Arr1[key]);
+// }
+
+//foreach loop
+// Arr1.forEach(element => {
+//     console.log(element);
+// });
+
+// ////////////////////////////////////////////
+// ✅ use const for creating arrays.
+
+// const Arr = [1,2,3];
+// console.log(Arr);
+// Arr.push(100);
+// console.log(Arr);
+// Arr = [];
+// console.log(Arr);
+
+
+/////////////////////////////////////////
 // ✅ Array destructuring.
+
+// const Arr1 =  [1,2,3,4,5,6,7,8,9,0];
+// // console.log(Arr1[0]);
+
+// var [v1,v2,,v3,...NewArr] = Arr1;
+
+// console.log(v1);
+// console.log(v2);
+// console.log(v3);
+// console.log(NewArr);
+
