@@ -34,7 +34,7 @@ function function_name(){
     // - with arg and without rtn 
     // - without arg and with rtn 
     // - with arg and with rtn 
-// 2) ExpressionFunction
+// 2) Expression Function
     // - without arg and without rtn 
     // - with arg and without rtn 
     // - without arg and with rtn 
@@ -91,4 +91,4 @@ function result(n){
     }
 }
 var output = result(5);
-console.log(output);
+// console.log(output);
