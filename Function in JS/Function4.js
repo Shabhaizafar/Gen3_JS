@@ -106,3 +106,20 @@ function*FunctionName(){
 // Example string : 'webmaster'
 // Expected Output : 'abeemrstw'
 // Assume punctuation and numbers symbols are not included in the passed string.
+
+// var mystr = "webmaster";
+
+// var ans = (
+//     function (str){
+//         return str.split('').sort().join('');
+//     }
+// )(mystr);
+
+// console.log(ans);
+
+
+
+// IIFE  Function : 
+// return array  
+//value : 1 to n =5
+//[1,2,3,4,5]
