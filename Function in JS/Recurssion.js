@@ -39,3 +39,16 @@
 
 // 8208 
 // 8*4 + 2*4 + 0*4 + 8*4 = 8208
+
+
+function Armstong(n){
+    if(n==0)
+    {
+        return;
+    }
+    var temp = n%10;
+    n = parseInt(n/10);
+    console.log(temp,n);
+    Armstong(Number(n));
+}
+Armstong(153);
