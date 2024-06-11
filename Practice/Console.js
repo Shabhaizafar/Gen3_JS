@@ -150,9 +150,23 @@
 // 20. **Print a reversed string**
 // console.log("Royal".split('').reverse().join(''));
 
+
 // var Arr = "Royal".split('');
 // Arr.forEach(
 //     (v,i)=>{
 //         console.log(v,i)
 //     }
 // );
+
+// without Vowel
+
+// var str = "ROyal";
+// var Vowel = ['a','e','i','o','u'];
+// var newstr = '';
+// for (let i = 0; i < str.length; i++) {
+//     if(!Vowel.includes(str[i].toLowerCase()))
+//     {
+//         newstr +=str[i];
+//     }
+// }
+// console.log(newstr);
