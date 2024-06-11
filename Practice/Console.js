@@ -70,3 +70,89 @@
 
 // 20. **Print a String in Lowercase**
 // console.log("HeLlo".toLowerCase());
+//////////////////////////////////////////////////////////////////
+// 1. **Print your favorite quote**
+// console.log("Hard work is key of Success!!");
+
+// 2. **Print the result of multiplying two numbers**
+// console.log(2*3);
+
+// 3. **Print a string that includes a newline character**
+// console.log("Hello Everyone,\n\tWelcome to JS World !!");
+
+// 4. **Print an array of your top 3 favorite movies**
+// console.log(["welcome","welcome2","welcome3"]);
+
+// 5. **Print the second element in an array**
+// console.log(["welcome","welcome2","welcome3"][0,2]);
+
+// 6. **Print the result of a complex mathematical expression (e.g., (8 + 2) * (5 / 2))**
+// console.log((8 + 2) * (5 / 2));
+
+// 7. **Print the type of a number**
+// console.log(typeof(45.234));
+
+// 8. **Print the result of comparing two numbers (e.g., 5 > 3)**
+// console.log(5>23);
+
+// 9. **Print a greeting message that includes a variable (e.g., "Hello, " + name)**
+// var fname = "Raj";
+// console.log("Hello, "+fname);
+// console.log("Hello,",fname);
+// console.log("Hello, ".concat(fname));
+
+
+
+// 10. **Print the length of an array**
+// console.log([1,2,3,4,44,55,67,5,6,7,8,9].length);
+
+// 11. **Print the result of converting a string to a number**
+// console.log(Number("12"));
+// console.log(Number("1asdfgh"));
+
+// 12. **Print a boolean value that represents whether a string includes a specific substring**
+// var str = "Royal technosoft pvt ltd";
+// console.log(str.includes("Rsdfghjoyal"));
+
+// 13. **Print the result of a ternary operation**
+// ('',0)?console.log("12 is greater") : console.log('12 is lessthan');
+
+// 14. **Print the properties of an object on separate lines**
+// for (const key in {fname:"Raj",lname : "Shah"}) {
+//     console.log(key,{fname:"Raj",lname : "Shah"}[key]);
+// }
+// var obj = {fname:"Raj",lname : "Shah"};
+// for (const key in obj) {
+//     console.log(key,obj[key]);
+// }
+
+// 15. **Print a formatted date (e.g., "2024-06-08")**
+// var today = new Date();
+// console.log(`${today.getFullYear()}-${today.getDate()}-${today.getMonth()}`);
+
+// 16. **Print the character at a specific index in a string**
+// console.log("Royal"[0]);
+
+// 17. **Print the result of adding an element to an array**
+// var arr = [1,2,3];
+// arr.push(4,5,6);
+// console.log(arr);
+
+// 18. **Print the keys of an object**
+// var obj = {fname:"Raj",lname : "Shah"};
+// for (const key in obj) {
+//     console.log(key);
+// }
+
+// 19. **Print the square of a number using Math.pow()**
+// console.log(Math.pow(3,3));
+
+// 20. **Print a reversed string**
+// console.log("Royal".split('').reverse().join(''));
+
+// var Arr = "Royal".split('');
+// Arr.forEach(
+//     (v,i)=>{
+//         console.log(v,i)
+//     }
+// );
