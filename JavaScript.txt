@@ -55,10 +55,10 @@
 
 => Functions in JavaScript :-
 
-   - Function declaration.
-   - Function Expression.
-   - Arrow Functions.
-   - Function declarations are hoisted  (covered in great detail  later).
+   - Function declaration.   
+   - Function Expression.   
+   - Arrow Functions.    
+   - Function declarations are hoisted
    - Function inside function.
    - Lexical Scope.
    - Block Scope Vs Function Scope.
