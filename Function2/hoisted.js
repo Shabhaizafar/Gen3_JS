@@ -1,11 +1,10 @@
-//(Name) Function declarations are hoisted .
+//(Name) Function declarations are hoisted.
 
 // All();//calling
 // function All(){
 //     console.log("Hello");
 // }
 // All();//calling
-
 
 
 // all other Functions are not hoisted.
