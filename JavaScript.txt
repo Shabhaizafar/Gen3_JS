@@ -55,6 +55,7 @@
 
 => Functions in JavaScript :-
 
+   (10 function)
    ✅ Function declaration.   
    ✅ Function Expression.   
    ✅ Arrow Functions.    
@@ -91,6 +92,7 @@
 
 => Object Oriented JavaScript / Prototypal Inheritance :-
 
+   - rsn ?
    - Methods.
    - This keyword, Window object.
    - Call , apply and bind method.

@@ -67,11 +67,6 @@ var Arr = [11,14,12,19,18,15,20];
 
 
 
-///////////////////////////////////////
-//    - Filter.
-//    - Map method.
-//    - Reduce.
-//    - Splice method.
 
 
 // sort() Method:
@@ -111,3 +106,60 @@ var Arr = [11,14,12,19,18,15,20];
 // 10. **Fill:**
 //     - Create an array of 10 elements and use `Array.prototype.fill` to replace all elements with the numbers from 1 to 10.
 
+
+
+///////////////////////////////////////
+// var Arr = [1,2,3,4,5,6,7,8,9,10];
+// //    - Filter.
+// var ans =  Arr.filter((v)=>{
+//     return v<=15;
+// });
+// console.log(ans);
+
+
+//    - Splice method.
+// var deletedValue =  Arr.splice(2,3);
+// console.log(Arr);
+// console.log(deletedValue);
+
+
+//    - Reduce.
+// var ans = Arr.reduce(
+//     (previousvalue,currentvalue)=>{
+//         // console.log(previousvalue,currentvalue);
+//         return previousvalue+currentvalue;
+// });
+// console.log(ans);
+
+
+//    - Map method. 
+// var Arr = [
+//     {fname:"Raj",Age:15},
+//     {fname:"Ajay",Age:14},
+//     {fname:"Vijay",Age:20},
+//     {fname:"sw",Age:10},
+//     {fname:"R",Age:7}
+// ];
+
+// var ans =  Arr.map(
+//     (v)=>{
+//         if(v.Age>10)
+//         {
+//             return v;
+//         }
+//     }
+// );
+// console.log(ans);
+
+
+// 1. **Sum of Array**: Calculate the sum of all numbers in an array using `reduce`.
+   
+// 2. **Filter Odd Numbers**: Filter out all odd numbers from an array using `filter`.
+   
+// 5. **Remove First Element**: Remove the first element of an array using `splice`.
+   
+// Double the Numbers: Given an array of numbers, create a new array where each number is doubled.
+
+// Example:
+// Input: [1, 2, 3, 4]
+// Output: [2, 4, 6, 8]
