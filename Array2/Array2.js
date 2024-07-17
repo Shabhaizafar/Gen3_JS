@@ -163,3 +163,24 @@ var Arr = [11,14,12,19,18,15,20];
 // Example:
 // Input: [1, 2, 3, 4]
 // Output: [2, 4, 6, 8]
+
+
+// var Arr = [1,2,3,4,5,6];
+// var ans =  Arr.forEach((v)=>{
+//     // console.log(v*v);
+//     return v*v;
+// });
+// console.log(ans);
+
+// var ans =  Arr.map((v)=>{
+//     // console.log(v*v);
+//     return v*v;
+// });
+// console.log(ans);
+
+
+// var Arr = [1,2,3,4,5,6];
+
+// Arr.fill(0,1,5);
+
+// console.log(Arr);
