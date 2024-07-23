@@ -53,3 +53,31 @@ var obj = {
 
 // console.log("sertyu");
 
+
+
+// Object.assign
+// var obj = {
+//     fname : "Raj",
+//     lname : "Patel"
+// };
+// console.log(obj);
+
+// var obj2 = Object.assign({},obj,{Age:13});
+
+// console.log(obj2);
+// console.log(obj);
+
+
+
+
+// ✅ Sets. : 
+var Arr = [11,12,13,14,15,11,12,13,14];
+console.log(Arr);
+
+var myset = new Set(Arr);
+
+console.log(myset);
+
+
+
+// ✅ Maps.
