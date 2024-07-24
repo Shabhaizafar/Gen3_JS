@@ -70,13 +70,50 @@ var obj = {
 
 
 
-// ✅ Sets. : 
-var Arr = [11,12,13,14,15,11,12,13,14];
+// ✅ Sets. :   unique values 
+var Arr = [11,12,13,14,15,11,12,13,14,"Zafar",true];
 console.log(Arr);
 
 var myset = new Set(Arr);
 
+
+//add() :  Add single value at a time.
+// myset.add(100,300);
+
+
+//clear() : clear All Set values (empty set)
+// myset.clear();
 console.log(myset);
+
+
+//delete() : delete Specific Value 
+// myset.delete("Zafar");
+
+
+// myset.entries();
+
+// // Object Format  key value 
+// console.log(myset.entries());
+
+// // keys
+// console.log(myset.keys());
+
+// // values 
+// console.log(myset.values());
+
+
+//size of Set  : total number of Values
+// console.log(myset.size);
+
+// check the value exist or not in set
+// console.log(myset.has("Royal"));
+
+
+// Foreach Loop 
+myset.forEach((v)=>{
+    console.log(v);
+});
+
 
 
 
