@@ -1,4 +1,13 @@
-var AllMethods = {
+// Prototype Based Function  // constructor Function
+
+function All(fname,lname){
+    var user = Object.create(All.prototype);
+    user.Firstname = fname;
+    user.Lastname = lname;
+    return user;
+}
+
+All.prototype = {
     greet : function (){
         console.log(`Hello,Your Name is ${this.Firstname} ${this.Lastname}.`);
     },
@@ -7,12 +16,6 @@ var AllMethods = {
     }
 }
 
-function All(fname,lname){
-    var user = Object.create(AllMethods);
-    user.Firstname = fname;
-    user.Lastname = lname;
-    return user;
-}
 
 var obj5 = All("Raj","Shah");
 var obj6 = All("Zafar","A");
