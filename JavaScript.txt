@@ -112,7 +112,7 @@
    ✅ Example using class keyword.
    - Super keyword.
    - Method overriding.
-   - Getters and setters.
+   ✅ Getters and setters.
    - Static methods and properties.
 
 => How JavaScript Works :-
